@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Jpa_small_CRUD
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: 12345
+    username: postgres
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
